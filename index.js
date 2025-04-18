@@ -7,7 +7,6 @@ import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js"
 // Load environment variables early
 dotenv.config();
 
-// Initialize tools array
 let tools = [];
 
 // Create transport for MCP
